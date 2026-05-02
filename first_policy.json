@@ -1,0 +1,17 @@
+# this is my first dlp policy
+
+{
+  "LocalizationData": [
+    {
+      "Language": "en-us",
+      "Title": "Security Warning: Sensitive Data Detected",
+      "Body": "The attachment %%MatchedAttachmentName%% contains classified information or sensitivity labels: %%MatchedLabelName%%. You are attempting to share this with external recipients: %%MatchedRecipientsList%%.",
+      "Options": [
+        "The external recipients have signed an active NDA.",
+        "A manager has manually approved this exception.",
+        "This data is required for active partner collaboration."
+      ]
+    }
+  ],
+  "DefaultLanguage": "en-us"
+}
